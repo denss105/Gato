@@ -9,7 +9,7 @@ import javax.swing.JLabel;
 
 /**
  *
- * @author Denisse Joya
+ * @author Perla Díaz 
  */
 public class Gato extends javax.swing.JFrame {
   boolean estado=true;//si es true se puede escribir
@@ -369,9 +369,9 @@ public class Gato extends javax.swing.JFrame {
                     lbs[vs[i][1]-1].getText().equals("X")&&
                     lbs[vs[i][2]-1].getText().equals("X")){
                   
-                  lbs[vs[i][0]-1].setBackground(Color.magenta);
-                  lbs[vs[i][1]-1].setBackground(Color.magenta);
-                  lbs[vs[i][2]-1].setBackground(Color.magenta);
+                  lbs[vs[i][0]-1].setBackground(Color.yellow);
+                  lbs[vs[i][1]-1].setBackground(Color.yellow);
+                  lbs[vs[i][2]-1].setBackground(Color.yellow);
                  lbpuntajex.setText(Integer.toString(Integer.parseInt(lbpuntajex.getText())+1));
                   lbturno.setText("Ha ganado X");
                   estado=false;
@@ -380,9 +380,9 @@ public class Gato extends javax.swing.JFrame {
                     lbs[vs[i][1]-1].getText().equals("O")&&
                     lbs[vs[i][2]-1].getText().equals("O")){
                   
-                  lbs[vs[i][0]-1].setBackground(Color.magenta);
-                  lbs[vs[i][1]-1].setBackground(Color.magenta);
-                  lbs[vs[i][2]-1].setBackground(Color.magenta);
+                  lbs[vs[i][0]-1].setBackground(Color.yellow);
+                  lbs[vs[i][1]-1].setBackground(Color.yellow);
+                  lbs[vs[i][2]-1].setBackground(Color.yellow);
                   lbpuntajeo.setText(Integer.toString(Integer.parseInt(lbpuntajeo.getText())+1));
                   lbturno.setText("Ha ganado O");
                   estado=false;
